@@ -1,0 +1,242 @@
+body{
+  overflow-x: hidden;
+  background-color: aliceblue;
+}
+.navbar{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.navbar ul li {
+  display: inline;
+  padding: 5px 10px;
+  margin: 0 10px ;
+  
+}
+
+.logo{
+  color: #000;
+}
+
+.navbar button{
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 30px;
+  background-color: rosybrown;
+  color: white;
+  font-size: medium;
+}
+
+.Products div{
+  height: 250px;
+  width: 250px;
+  background-color: rosybrown;
+  margin: 10px;
+}
+.Products{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.navbar a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.active{
+  color: teal;
+}
+img{
+  height: 250px;
+  width: 250px;
+}
+
+
+
+.about {
+
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #111;
+}
+
+.about p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #111;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  background-color: rosybrown;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+  background-color:aliceblue;
+  border: 2px solid #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-container {
+
+
+  max-width: 900px;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-buttons {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-buttons button {
+  padding: 0.6rem 1.5rem;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-buttons button:hover {
+  background-color: #333;
+}
+
+.contact-display {
+  margin-top: 2rem;
+}
+
+/* === Form Styles === */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-wrapper button {
+  background-color: rosybrown;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-wrapper button:hover {
+  background-color: #333;
+}
+
+
+.info-wrapper {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.info-wrapper h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.info-wrapper p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
